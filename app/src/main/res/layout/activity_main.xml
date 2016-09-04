@@ -32,10 +32,23 @@
         android:layout_column="1"
         android:layout_gravity="center_horizontal"/>
     <Button
-        android:layout_gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_marginRight="35dp"
+        android:layout_column="1"
+        android:id="@+id/botaoEvento1"
+        android:text="Entrar - setOnclickListner implementa o onclick como parâmetro" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_marginRight="35dp"
+        android:layout_column="1"
+        android:id="@+id/botaoEvento2"
+        android:text="Entrar - setOnclickListner(meulistner) recebe o nome do metodo que trava o evento" /><!-- O evento desse será trataod no java-->
+    <Button
+        android:layout_width="match_parent"
+        android:layout_marginRight="35dp"
         android:layout_column="1"
         android:id="@+id/botao"
-        android:text="Entrar"
+        android:text="Entrar 'evento chamado no xml'"
         android:onClick="entrar"/><!--Coloca o elemento na segunda coluna-->
 
 
